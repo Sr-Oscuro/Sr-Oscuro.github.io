@@ -1,0 +1,46 @@
+body {
+    background-color: #e1b4f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+button {
+    width: 5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+.yes {
+    background-color: greenyellow;
+}
+
+.yes:hover {
+    background-color: rgb(87, 144, 1);
+}
+
+.no {
+    background-color: red;
+}
+
+.no:hover {
+    background-color: rgb(132, 0, 0);
+}
+
+@keyframes rainbow {
+    0% { background-color: red; }
+    14% { background-color: orange; }
+    28% { background-color: yellow; }
+    42% { background-color: #0F0; }
+    57% { background-color: blue; }
+    71% { background-color: indigo; }
+    85% { background-color: violet; }
+    100% { background-color: red; }
+}
+
+.say_yes {
+    animation: rainbow 2s infinite;
+}
